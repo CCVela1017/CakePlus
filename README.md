@@ -1,24 +1,10 @@
-# cakery
+# CakePlus
 
-## Project setup
-```
-npm install
-```
+## Mockups del software
+[https://www.canva.com/design/DAGebvbi5Uc/T9_sG3yato9S3wR1r-B2WA/edit]
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Diagrama de Entidad-Relacion
+[https://drive.google.com/file/d/1nmZoLz2laQlK4T8eD0ZykXb4nUaLpDXd/view]
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Diagrama relacional
+[https://drive.google.com/file/d/1SvDO9y6_G0FFWqwo7tDH_jrJV0tF0h0U/view]
