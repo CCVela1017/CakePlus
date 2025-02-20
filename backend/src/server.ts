@@ -6,7 +6,7 @@ import pool from './db';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 app.use(express.json());
 app.use(cors({ origin: 'http://localhost:8080' })); // Permite conexiones desde Vue.js
@@ -23,7 +23,7 @@ app.get('/usuarios', async (req, res) => {
 });
 
 // Endpoint para insertar un usuario
-app.post('/usuarios', async (req, res) => {
+app.post('/usuarios', async (req: any, res:any) => {
   const { nombre } = req.body;
   if (!nombre) {
     return res.status(400).json({ error: 'El nombre es requerido' });
